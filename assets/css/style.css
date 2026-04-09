@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #e6f2ff; 
+    color: #222;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+nav {
+    background-color: #555;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+h1, h2 {
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+p {
+    font-size: 18px;
+}
+.test-box {
+    background-color: lightgreen;
+    padding: 20px;
+    margin: 40px;
+    border: 2px solid black;
+}
+@media (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bild-container img {
+    width: 100%;
+}
+.knapp {
+    display: inline-block;
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.knapp:hover {
+    background-color: #005f99;
+}
+.bild-container {
+    display: flex;
+    gap: 15px;
+}
+
+.bild-container img {
+    flex: 1;
+    max-width: 50%;
+    height: 250px;
+    object-fit: cover;
+}
+@media (max-width: 600px) {
+    .bild-container {
+        flex-direction: column;
+    }
+
+    .bild-container img {
+        max-width: 100%;
+        height: auto;
+    }
+}
