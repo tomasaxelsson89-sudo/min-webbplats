@@ -12,24 +12,33 @@
     <h1>Kontakt</h1>
 </header>
 
-<nav>
+<nav aria-label="Huvudmeny">
     <a href="../index.html">Start</a>
     <a href="om.html">Om</a>
     <a href="kontakt.html">Kontakt</a>
 </nav>
 
 <main>
+
+<section>
     <h2>Kontakta mig</h2>
 
     <form>
-        <label for="namn">Namn:</label><br>
-        <input type="text" id="namn" name="namn"><br><br>
+        <fieldset>
+            <legend>Dina uppgifter</legend>
 
-        <label for="epost">E-post:</label><br>
-        <input type="email" id="epost" name="epost"><br><br>
+            <label for="namn">Namn:</label><br>
+            <input type="text" id="namn" name="namn" required><br><br>
 
-        <input type="submit" value="Skicka">
+            <label for="epost">E-post:</label><br>
+            <input type="email" id="epost" name="epost" required><br><br>
+
+            <input type="submit" value="Skicka">
+        </fieldset>
     </form>
+
+</section>
+
 </main>
 
 <footer>

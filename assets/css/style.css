@@ -62,12 +62,7 @@ h2 {
 p {
     font-size: 18px;
 }
-.test-box {
-    background-color: lightgreen;
-    padding: 20px;
-    margin: 40px;
-    border: 2px solid black;
-}
+
 @media (max-width: 600px) {
    nav {
     display: flex;
