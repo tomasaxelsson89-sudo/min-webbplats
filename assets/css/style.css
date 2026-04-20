@@ -132,3 +132,29 @@ img {
         height: auto;
     }
 }
+nav a:focus {
+    outline: 3px solid #ffcc00;
+    outline-offset: 2px;
+}
+
+input:focus {
+    outline: 3px solid #007acc;
+}
+
+nav a {
+    padding: 8px 12px;
+    display: inline-block;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
